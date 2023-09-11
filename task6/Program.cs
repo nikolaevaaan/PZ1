@@ -11,7 +11,7 @@ namespace task6
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите число a: ");
+            Console.Write("Введите число: ");
             int number = int.Parse(Console.ReadLine()!);
 
             if(number%2 == 0){
